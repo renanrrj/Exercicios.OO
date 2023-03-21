@@ -9,34 +9,37 @@
         public Produto()
         {
         }
-
-
-        public string GetNome ()
-        {
-            return _nome;
-        }
-        public void SetNome (string nome)
-        {
-            if (nome != null && nome.Length > 1)
-            {
-                _nome = nome;
-            }
-            
-        }
-         public double GetPreco ()
-        {
-            return _preco;
-        }
-        public int GetQuantidade()
-        {
-            return _quantidade;
-        }
+        
+        
 
         public Produto(string nome, double preco, int quantidade)
         {
             _nome = nome;
             _preco = preco;
             _quantidade = quantidade;
+        }
+
+
+        public string Nome // property definindo as operações de get e set (nome, preco e qtd)
+        {
+            get { return _nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }
+        }
+
+        public double Preco
+        {
+            get { return _preco; }
+        }
+
+        public int Quantidade
+        {
+            get { return _quantidade; }
         }
 
         public double ValorTotalEmEstoque()
@@ -53,9 +56,7 @@
         }
         public override string ToString()
         {
-            return _nome
-            + ", $ " + _preco.ToString() + ", " + _quantidade + " unidades, Total: $ "
-            + ValorTotalEmEstoque().ToString();
+            return _nome + ", $ " + _preco.ToString() + ", " + _quantidade + " unidades, Total: $ " + ValorTotalEmEstoque().ToString();
         }
     }
 }
