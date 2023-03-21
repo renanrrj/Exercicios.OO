@@ -1,17 +1,16 @@
-﻿using System.Globalization;
-
-namespace Produto.Const
+﻿namespace Produto.Const
 {
     class Program
     {
         static void Main(string[] args)
         {
             Produto p = new Produto("TV", 500, 10);
-            p.SetNome("445345");
-            p.GetPreco();
+
+            p.Nome = "t";
+
             
-            Console.WriteLine(p.GetNome());
-            Console.WriteLine(p.GetPreco());
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
 
             //Console.WriteLine("Entre os dados do produto:");
             //Console.Write("Nome: ");

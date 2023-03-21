@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Construtores", "Construtore
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estatico", "Estatico\Estatico.csproj", "{6E6BA341-8710-463B-B7C2-1D95BC8421F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produto.Const", "Produto.Const\Produto.Const.csproj", "{414B6595-B9B0-45A7-AC0A-4C4174366CA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Produto.Const", "Produto.Const\Produto.Const.csproj", "{414B6595-B9B0-45A7-AC0A-4C4174366CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta", "Conta\Conta.csproj", "{F2879282-8A92-4050-BD35-B8A420A6DA7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{414B6595-B9B0-45A7-AC0A-4C4174366CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414B6595-B9B0-45A7-AC0A-4C4174366CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414B6595-B9B0-45A7-AC0A-4C4174366CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2879282-8A92-4050-BD35-B8A420A6DA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2879282-8A92-4050-BD35-B8A420A6DA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2879282-8A92-4050-BD35-B8A420A6DA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2879282-8A92-4050-BD35-B8A420A6DA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{4B02FF8B-FFDD-4733-8B05-79D04977CBCB} = {00A0EC58-93FB-4F5F-9544-06F21D753166}
 		{6E6BA341-8710-463B-B7C2-1D95BC8421F8} = {00A0EC58-93FB-4F5F-9544-06F21D753166}
 		{414B6595-B9B0-45A7-AC0A-4C4174366CA8} = {F5820974-02D9-4204-8805-DC1AC97913D7}
+		{F2879282-8A92-4050-BD35-B8A420A6DA7F} = {F5820974-02D9-4204-8805-DC1AC97913D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4F8B411-140A-48B7-8477-79895097E137}
