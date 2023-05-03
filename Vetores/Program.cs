@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.Serialization;
-
-namespace Vetores
+﻿namespace Vetores
 {
     internal class Program
     {
@@ -11,7 +8,7 @@ namespace Vetores
 
             Produto[] vet = new Produto[n]; // Criação do vetor de nome "vet"
 
-            for (int i = 0; i < n; i++) // FOR para preencher 
+            for (int i = 0; i < n; i++) // FOR para preencher o vetor
             {
                 string nome = Console.ReadLine();
                 double preco = double.Parse(Console.ReadLine());
